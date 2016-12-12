@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolMarketingSystem.UI", "CoolMarketingSystem.UI\CoolMarketingSystem.UI.csproj", "{7BCBA560-2C9B-46A5-BA44-480C3995C768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolMarketingSystem.ControlLibrary", "CoolMarketingSystem.ControlLibrary\CoolMarketingSystem.ControlLibrary.csproj", "{4E33A2D9-3844-41A6-B14C-483C150CE7A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolMarketingSystem.FormLibrary", "CoolMarketingSystem.FormLibrary\CoolMarketingSystem.FormLibrary.csproj", "{1AF39DFD-3A86-4630-A238-87617B891C46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolMarketingSystem.DAL", "CoolMarketingSystem.DAL\CoolMarketingSystem.DAL.csproj", "{E675A1B4-0AA1-43B6-AC9D-4D913E377066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolMarketingSystem.IDAL", "CoolMarketingSystem.IDAL\CoolMarketingSystem.IDAL.csproj", "{EB5DE4CF-6C2A-46BE-B1B7-E4669C1F6F07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolMarketingSystem.BLL", "CoolMarketingSystem.BLL\CoolMarketingSystem.BLL.csproj", "{FD4FD93B-21FA-4FDF-AF10-2BD134D476DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BCBA560-2C9B-46A5-BA44-480C3995C768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BCBA560-2C9B-46A5-BA44-480C3995C768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BCBA560-2C9B-46A5-BA44-480C3995C768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCBA560-2C9B-46A5-BA44-480C3995C768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E33A2D9-3844-41A6-B14C-483C150CE7A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E33A2D9-3844-41A6-B14C-483C150CE7A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E33A2D9-3844-41A6-B14C-483C150CE7A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E33A2D9-3844-41A6-B14C-483C150CE7A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AF39DFD-3A86-4630-A238-87617B891C46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF39DFD-3A86-4630-A238-87617B891C46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF39DFD-3A86-4630-A238-87617B891C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF39DFD-3A86-4630-A238-87617B891C46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E675A1B4-0AA1-43B6-AC9D-4D913E377066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E675A1B4-0AA1-43B6-AC9D-4D913E377066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E675A1B4-0AA1-43B6-AC9D-4D913E377066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E675A1B4-0AA1-43B6-AC9D-4D913E377066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5DE4CF-6C2A-46BE-B1B7-E4669C1F6F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5DE4CF-6C2A-46BE-B1B7-E4669C1F6F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5DE4CF-6C2A-46BE-B1B7-E4669C1F6F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5DE4CF-6C2A-46BE-B1B7-E4669C1F6F07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4FD93B-21FA-4FDF-AF10-2BD134D476DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4FD93B-21FA-4FDF-AF10-2BD134D476DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4FD93B-21FA-4FDF-AF10-2BD134D476DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4FD93B-21FA-4FDF-AF10-2BD134D476DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

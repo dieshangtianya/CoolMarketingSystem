@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1AF39DFD-3A86-4630-A238-87617B891C46}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CoolMarketingSystem.FormLibrary</RootNamespace>
+    <AssemblyName>CoolMarketingSystem.FormLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyHelper.cs" />
+    <Compile Include="FormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBase.designer.cs">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThemeImagesInfo.cs" />
+    <Compile Include="Theme\BlackTheme.cs" />
+    <Compile Include="Theme\BlueTheme.cs" />
+    <Compile Include="Theme\ThemeBase.cs" />
+    <Compile Include="Theme\ThemeConfig.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormBase.resx">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Theme\ThemeImages\Blue\bordderLeft.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Blue\borderRight.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Blue\bottomStreach.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Blue\common_bottom_bg.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Blue\common_title_bg.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Blue\skin_btn_close.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Blue\skin_btn_close_hover.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Blue\skin_btn_max.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Blue\skin_btn_max_hover.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Blue\skin_btn_menu.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Blue\skin_btn_menu_hover.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Blue\skin_btn_min.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Blue\skin_btn_min_hover.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Blue\skin_btn_restore.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Blue\skin_btn_restore_hover.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Theme\ThemeImages\Black\bordderLeft.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Black\borderRight.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Black\bottomStreach.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Black\common_bottom_bg.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Black\common_title_bg.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Black\skin_btn_close.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Black\skin_btn_close_hover.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Black\skin_btn_max.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Black\skin_btn_max_hover.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Black\skin_btn_menu.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Black\skin_btn_menu_hover.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Black\skin_btn_min.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Black\skin_btn_min_hover.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Theme\ThemeImages\Black\skin_btn_restore.gif" />
+    <EmbeddedResource Include="Theme\ThemeImages\Black\skin_btn_restore_hover.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
